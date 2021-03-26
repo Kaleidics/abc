@@ -26,6 +26,7 @@
     @media (max-width: 800px) {
       & {
         font-size: 5rem;
+        width: 100%;
       }
     }
   }
@@ -35,6 +36,12 @@
     font-size: 2rem;
     max-width: 50rem;
     color: darken($color-white, 10%);
+    
+    @media (max-width: 800px) {
+      & {
+        width: 100%;
+      }
+    }
   }
 
   &__content-sub {
