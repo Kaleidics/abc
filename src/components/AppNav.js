@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import logo from "../assets/images/abc_logo.svg";
 
 function AppNav({ currentPage, onClick, pageData }) {
@@ -28,7 +28,7 @@ function AppNav({ currentPage, onClick, pageData }) {
         {navItems}
       </div>
       <div className="nav__right">
-        <a className="btn btn--outline">Contact Us</a>
+        <button className="btn btn--outline">Contact Us</button>
       </div>
     </nav>
   );

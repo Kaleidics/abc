@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 function AppHeadline({ currentPage }) {
   console.log(currentPage);
@@ -13,9 +13,9 @@ function AppHeadline({ currentPage }) {
         <p className="headline__text">
           Nemo enim ipsam voluptatem quia voluptas.
         </p>
-        <a className="headline__cta">
+        <button className="headline__cta">
           Let's Talk <span>&rarr;</span>
-        </a>
+        </button>
       </div>
     </div>
   );
