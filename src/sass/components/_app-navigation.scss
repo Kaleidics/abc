@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  max-width: 144rem;
+  margin: 2rem auto;
+  padding: 2rem;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__right {
+  }
+
+  &__logo {
+    width: 10rem;
+    margin-bottom: 1rem;
+  }
+
+  &__link {
+    color: $color-white;
+    border: none;
+    background: none;
+    padding: 1rem 0.5rem;
+    font-size: 1.6rem;
+    outline: none;
+    font-weight: 600;
+    text-align: left;
+    cursor: pointer;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+
+  &__link--selected {
+    color: $color-primary;
+  }
+}

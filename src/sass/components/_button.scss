@@ -1,0 +1,10 @@
+.btn {
+  font-size: 1.8rem;
+  padding: 1.6rem 2rem;
+  cursor: pointer;
+
+  &--outline {
+    color: $color-white;
+    border: 1px solid $color-white;
+  }
+}
