@@ -23,7 +23,7 @@
     width: 50%;
     line-height: 1.2;
 
-    @media (max-width: 800px) {
+    @media (max-width: 880px) {
       & {
         font-size: 5rem;
         width: 100%;
@@ -37,7 +37,7 @@
     max-width: 50rem;
     color: darken($color-white, 10%);
     
-    @media (max-width: 800px) {
+    @media (max-width: 880px) {
       & {
         width: 100%;
       }
@@ -52,7 +52,7 @@
     align-items: baseline;
     justify-content: space-between;
 
-    @media (max-width: 800px) {
+    @media (max-width: 880px) {
       & {
         flex-direction: column;
       }
