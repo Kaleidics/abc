@@ -26,7 +26,6 @@ function AppHeader({ pageData }) {
     setPage(page);
   };
 
-  console.log(1, pageData);
   if (page) {
     return (
       <header

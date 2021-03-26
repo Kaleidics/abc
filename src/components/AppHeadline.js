@@ -1,8 +1,6 @@
 import React from "react";
 
 function AppHeadline({ currentPage }) {
-  console.log(currentPage);
-
   return (
     <div className="headline">
       <div className="headline__content">
